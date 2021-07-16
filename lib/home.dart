@@ -90,6 +90,23 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
+                ),
+                Container(
+                  width: MediaQuery.of(context).size.width * 0.80,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.all(Radius.circular(20))
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      IconButton(icon: Icon(Icons.layers_clear,color: Colors.black,), onPressed: (){
+                        this.setState(() {
+                          points.clear(); 
+                        });
+                      })
+                    ],
+                  ),
                 )
               ],
             ),
