@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
 
     print("starting Request");
 
-    var url ='http://192.168.2.15:5000/predict';
+    var url ='http://192.168.1.2:5000/predict';
 
     Map<String , String>headers ={
       'Content-type' :'application/json',
