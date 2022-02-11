@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:human_generator_app/splashscreen.dart';
+import 'package:human_generator_app/presentation/screen/splashscreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,4 +19,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
